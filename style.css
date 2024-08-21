@@ -1,0 +1,77 @@
+/* style.css */
+body {
+    font-family: 'Comic Sans MS';
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+header img {
+    border: 5px solid #ff6f91;
+}
+
+section h2 {
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 0;
+}
+
+footer {
+    background: linear-gradient(to right, #ff6f91, #ff9671);
+}
+
+.list-inline-item {
+    font-size: 1.1em;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+a {
+    color: #ff6f91;
+}
+
+a:hover {
+    color: #ff71c1;
+    text-decoration: none;
+}
+
+.d-flex.align-items-center.justify-content-center {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.d-flex.align-items-center.justify-content-center div {
+    text-align: left;
+}
+
+.section-separator {
+    border: 0;
+    height: 4px;
+    background-image: linear-gradient(to right, #ff6f91, #ff6f91);
+    margin: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa !important;
+    font-size: 1.7em; /* Adjust font size here */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6f91 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: linear-gradient(to right, #ff6f91, #ff9671);
+}
+
+.fa-envelope, .fa-github, .fa-linkedin {
+    margin-right: 5px;
+}
